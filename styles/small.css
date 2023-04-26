@@ -8,19 +8,18 @@ header {
 }
   
 header img {
-    margin-right: 70px; /* add some space between the image and the text */
-    margin-left: 50px;
-    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.5);
-
+    width: 200px;
+    height: auto;
+    margin-right: 30px;
+    margin-left: 30px;
 }
   
 header h1 {
     margin: 0;
     color: white;
-    font-size: 60px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    font-family: 'Castoro Titling', cursive;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-
 }
 body {
     max-width: 900px;
@@ -30,22 +29,19 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-
 }
 
 main h2 {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-shadow: 5px 5px 2px rgba(93, 92, 92, 0.5);
-    font-size: 50px;
+    font-size: 30px;
     margin-left: 30px;
-
 }
 
 main  ul {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
     margin: 20px 0;
-
 }
 
 main li {
@@ -59,7 +55,6 @@ main ul a {
 
 footer {
     background-color:rgb(47, 98, 100);
-    border-radius: 10px;
     width: 100%;
     height: 180px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -67,13 +62,12 @@ footer {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    font-size: 20px;
 }
 footer a {
     color: white;
-    font-size: 35px;
 }
 
 footer p {
     color: rgb(0, 0, 0);
-    font-size: 30px;
 }
