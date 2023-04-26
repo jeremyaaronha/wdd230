@@ -18,6 +18,19 @@ header {
     font-family: 'Roboto', sans-serif;
     font-size: 54px;
 }
+header a {
+    color: inherit;
+    text-decoration:solid;
+}
+
+header h2 {
+    text-shadow: 4px 4px 4px #454545;
+}
+
+header h2:hover {
+    transform: scale(1.07);
+    transition: transform 0.09s ease-in-out;
+}
 
 .box {
 	background-color: rgb(240, 239, 239);
