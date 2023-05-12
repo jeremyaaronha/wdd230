@@ -5,90 +5,109 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lo Campino Chamber of Commerce Web Page</title>
-	<link rel="stylesheet" type="text/css" href="styles/large.css">
+    <link rel="stylesheet" type="text/css" href="styles/base.css">
     <link rel="stylesheet" type="text/css" href="styles/medium.css">
-    <link rel="stylesheet" type="text/css" href="styles/small.css">
+	<link rel="stylesheet" type="text/css" href="styles/large.css">
+
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <img src="images/lccoc-logo.jpg" alt="Chamber-Of-Commerce-Logo">
-        <section class="headers">
-            <h1>Lo Campino</h1>
-            <div>Chamber of Commerce</div>
-        </section>
+
+        <div class="headers">
+            <a href="index.html"><img src="images/lccoc-logo.jpg" alt="Chamber-Of-Commerce-Logo"></a>
+            <div class="name">
+                <h1>Lo Campino</h1>
+                <h2>Chamber of Commerce</h2>
+            </div>
+
+            <nav class="nav-bar">
+                <ul id="secondaryNav">
+                    <li><a href="#">Discover</a></li>
+                    <li><a href="#">Directory</a></li>
+                    <li><a href="#">Join</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="social-icons">
+                <a class="social-icons" href="https://www.facebook.com/" target="_blank"><img src="images/facebook-logo.png" alt="Facebook Logo"></a>
+                <a class="social-icons" href="https://www.linkedin.com/feed/" target="_blank"><img src="images/linkedin-logo.webp" alt="LinkedIn Logo"></a>    
+            </div>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+
+        </div>
+
         <nav class="nav-bar">
-            <ul>
+            <ul id="primaryNav">
                 <li><a href="#">Discover</a></li>
                 <li><a href="#">Directory</a></li>
                 <li><a href="#">Join</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
-        <nav class="social-icons">
-            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook-logo.png" alt="Facebook Logo"></a>
-            <a href="https://www.linkedin.com/feed/" target="_blank"><img src="images/linkedin-logo.webp" alt="LinkedIn Logo"></a>
-        </nav>
+
+
         <nav class="now-date">
             <span id="date"></span>
         </nav>
     </header>
 
     <main>
-        <section class="event">
+        <div class="event">
             <p>Event</p>
-        </section>
-        <section class="weather">
+        </div>
+        <div class="weather">
             <p>Weather</p>
-        </section>
-        <section class="join">
+        </div>
+        <div class="join">
             <p>Join</p>
-        </section>
-        <section class="hero">
+        </div>
+        <div class="hero">
             <p>Hero with site name and call to action</p>
-        </section>
-        <section class="news">
+        </div>
+        <div class="news">
             <p>News Release</p>
 
-        </section>
+        </div>
 
-        <section class="sections">
+        <div class="sections">
 
-            <section class="spotlight1">
+            <div class="spotlight1">
                 <p>Spotlight 1</p>
-            </section>
+            </div>
 
-            <section class="spotlight2">
+            <div class="spotlight2">
                 <p>Spotlight 2</p>
-            </section>
+            </div>
 
-            <section class="spotlight3">
+            <div class="spotlight3">
                 <p>Spotlight 3</p>
-            </section>
+            </div>
 
-        </section>
+        </div>
 
     </main>
 
     <footer>
-        <section class="footer-logo">
-            <img src="images/lccoc-logo.jpg" alt="Lo Campino Chamber of Commerce Logo">
-        </section>
-        <section class="footer-info">
+        <div class="footer-logo">
+            <a href="index.html"><img src="images/lccoc-logo.jpg" alt="Lo Campino Chamber of Commerce Logo"></a>
+        </div>
+        <div class="footer-info">
             <p>Lo Campino Chamber of Commerce</p>
             <p class="address">Camino del Cerro 1574</p>
-        </section>
-        <section class="footer-contact-info">
+        </div>
+        <div class="footer-contact-info">
             <p class="mail">info@locampinochamber.org</p>
             <p class="phone-number"> + 56 9 1234 5678</p>
             <p class="address-link"><a href="https://www.google.com/maps/place/Estados+Unidos/@35.7013128,-116.933233,4z/data=!3m1!4b1!4m6!3m5!1s0x54eab584e432360b:0x1c3bb99243deb742!8m2!3d37.09024!4d-95.712891!16zL20vMDljN3cw" target="_blank">Location Map</a></p>
-        </section>
-        <section class="footer-last">
+        </div>
+        <div class="footer-last">
             <a>© <span id="currentYear"></span> Lo Campino Chamber | Jeremy Herrera | WDD 230 Proyect |</a>
             <p>Last Modification: <span id="lastUpdated"></span></p>
-        </section>
+        </div>
     </footer>
     <script src="scripts/scripts.js"></script>
 </body>
