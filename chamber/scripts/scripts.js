@@ -36,3 +36,18 @@ const x = document.getElementById("hamburgerBtn");
 
 x.onclick = toggleMenu;
 
+// Current day of the week
+const currentDate = new Date();
+const currentDay = currentDate.getDay();
+
+// Monday [1] or Tuesday [2]
+if (currentDay === 1 || currentDay === 2) {
+  // Create a banner
+  const banner = document.createElement('div');
+  banner.classList.add('banner');
+  banner.textContent = '🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.';
+
+  // Append the banner to the very top of the page
+  const header = document.querySelector('header');
+  header.insertBefore(banner, header.firstChild);
+}

@@ -36,9 +36,20 @@ main {
     grid-row: 2/3;
 }
 
+
+.weather-title {
+    font-size: 32px;
+}
+
+.wind-speed, .wind-chill{
+    font-size: 18px;
+
+}
+
 .join {
     grid-column: 1/2;
     grid-row: 3/4;
+    font-size: 24px;
 }
 
 .hero {
@@ -49,6 +60,10 @@ main {
 .news {
     grid-column: 2/3;
     grid-row: 3/4;
+}
+
+.news-p {
+    font-size: 18px;
 }
 
 .sections {

@@ -2,6 +2,8 @@
 
 /* Headers */
 
+
+
 .headers h1 {
     font-size: 30px;
 }
@@ -29,6 +31,10 @@ main {
     grid-row: 2/3;
 }
 
+.news-p {
+    font-size: 32px;
+}
+
 .sections {
     grid-row: 3/4;
     display: flex;
@@ -42,6 +48,7 @@ main {
 
 .join {
     grid-row: 4/5;
+    font-size: 48px;
 }
 
 .event {
@@ -52,6 +59,16 @@ main {
 .weather {
     grid-row: 5/6;
     grid-column: 3/5;
+}
+
+
+.weather-title {
+    font-size: 42px;
+}
+
+.wind-speed, .wind-chill{
+    font-size: 32px;
+
 }
 
 /* Footer */
