@@ -33,7 +33,7 @@
             </nav>
             <div class="social-icons">
                 <a class="social-icons" href="https://www.facebook.com/" target="_blank"><img src="images/facebook-logo.png" alt="Facebook Logo"></a>
-                <a class="social-icons" href="https://www.linkedin.com/feed/" target="_blank"><img src="images/linkedin-logo.webp" alt="LinkedIn Logo"></a>    
+                <a class="social-icons" href="https://www.linkedin.com/feed/" target="_blank"><img src="images/linkedin-logo.png" alt="LinkedIn Logo"></a>    
             </div>
             <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
 
@@ -58,14 +58,22 @@
         <div class="event">
             <p class="event-title">Do you want to learn how to invest your money wisely in local businesses? Join us this Thursday, August 16 at 8:00 p.m.</p>
             <a class="event-link" href="https://zoom.us" target="blank">Link Here</a>
-            <img src="images/invest.png" alt="Invest Image">
-        </div>
+            <picture>
+                <source media="(max-width: 505px)" srcset="images/invest-500.jpg">
+                <source media="(max-width: 800px)" srcset="images/invest-800.jpg">
+                <img src="images/invest-1077.png" alt="Invest Image">
+            </picture>       
+         </div>
         <div class="weather">
             <p class="weather-title">Weather</p>
-            <img src="images/weather.jpg" alt="Sky Image">
-            <p class="temperature"> [Temperature]</p>
-            <p class="wind-speed">Wind Speed:</p>
-            <p class="wind-chill">Wind Chill:</p>
+            <picture>
+                <source media="(max-width: 505px)" srcset="images/weather-500.webp">
+                <source media="(max-width: 800px)" srcset="images/weather-800.jpg">
+                <img src="images/weather-1195.jpg" alt="Clouds Image">
+            </picture>
+            <p>Temperature: <span id="temperature">45</span> °F</p>
+            <p>Wind Speed: <span id="wind-speed">6.8</span> mph</p>
+            <p>Wind Chill: <span id="wind-chill"></span></p>
 
         </div>
         <div class="join">
@@ -76,7 +84,13 @@
         <div class="hero">
             <p class="hero-msg">Welcome to Lo Campino</p>
             <p class="contact-button"><a href="">Contact Us!</a></p>
-            <img src="images/lo-campino-hero.jpeg" alt="Lo Campino Image">
+            <!-- <img src="images/wdd230-org.jpg" alt="Lo Campino Image">-->
+            <picture>
+                <source media="(max-width: 505px)" srcset="images/wdd230-org-500.webp">
+                <source media="(max-width: 800px)" srcset="images/wdd230-org-800.jpg">
+                <img src="images/wdd230-org-1280.jpg" alt="Lo Campino Image">
+            </picture>
+
         </div>
         <div class="news">
             <p class="news-title">News Release</p>
@@ -94,20 +108,32 @@
             <div class="spotlight1">
                 <p class="title-1">HESA Transportation Services</p>
                 <p class="title-2">Call Now : +569 9876 54321 | info@hesa.org</p>
-                <img class="road" src="images/road.png" alt="Road Photo">
+                <picture>
+                    <source media="(max-width: 505px)" srcset="images/road-500.webp">
+                    <source media="(max-width: 800px)" srcset="images/road-800.png">
+                    <img src="images/road-1424.png" alt="Clouds Image">
+                </picture>        
                 <img class="truck" src="images/truck.png" alt="Truck Icon">
             </div>
 
             <div class="spotlight2">
                 <p class="title-1"> LixMutz English Classes</p>
                 <p class="title-2">Call Now : +569 9753 8642 | info@lixmutz.com</p>
-                <img src="images/learn.jpeg" alt="Learn Image">
+                <picture>
+                    <source media="(max-width: 505px)" srcset="images/learn-500.webp">
+                    <source media="(max-width: 800px)" srcset="images/learn-800.jpg">
+                    <img src="images/learn-1280.jpeg" alt="Learn Image">
+                </picture> 
             </div>
 
             <div class="spotlight3">
                 <p class="title-1"> REAS Real Estate Agent Services</p>
                 <p class="title-2">Call Now : +569 9182 7364 | info@reas.org</p>
-                <img src="images/house.jpeg" alt="House Image">
+                <picture>
+                    <source media="(max-width: 505px)" srcset="images/house-500.jpg">
+                    <source media="(max-width: 800px)" srcset="images/house-800.jpg">
+                    <img src="images/house-1200.jpeg" alt="House Image">
+                </picture>            
             </div>
 
         </div>
@@ -133,5 +159,7 @@
         </div>
     </footer>
     <script src="scripts/scripts.js"></script>
+    <script src="scripts/windchill.js"></script>
+
 </body>
 </html>

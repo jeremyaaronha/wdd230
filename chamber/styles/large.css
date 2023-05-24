@@ -41,7 +41,7 @@ main {
     font-size: 32px;
 }
 
-.wind-speed, .wind-chill{
+#wind-speed, #wind-chill, #temperature{
     font-size: 18px;
 
 }

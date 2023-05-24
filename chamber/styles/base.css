@@ -1,7 +1,7 @@
 
     body {
         background-color: rgb(0, 0, 0);
-        max-height: 100vh;
+        max-height: 1200vh;
         min-width: 46vh;
     }
     
@@ -170,6 +170,8 @@
         transform: translate(-50%, -50%);
         width: 100%;
         text-shadow:  rgb(75, 75, 75) 5px 5px 5px;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 5px;
     }
 
     .hero img {
@@ -218,6 +220,7 @@
         font-size: 20px;
         padding: 10px;
         text-shadow:  rgb(75, 75, 75) 3px 3px 5px;
+        background-color: rgba(0, 0, 0, 0.5);
 
     }
 
@@ -262,15 +265,21 @@
         z-index: 1;
         color: white;
         text-shadow:  rgb(75, 75, 75) 3px 3px 5px;
+        font-size: 24px;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .weather-title {
         font-size: 32px;
+        text-shadow:  rgb(0, 0, 0) 2px 2px 3px;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 5px;
     }
 
-    .wind-speed, .wind-chill{
-        font-size: 18px;
-        text-align: left;
+    #wind-speed, #wind-chill, #temperature{
+        font-size: 32px;
         padding: 10px;
     }
 
@@ -295,7 +304,8 @@
     }
 
     .join-question {
-        text-shadow:  rgb(75, 75, 75) 3px 3px 5px;
+        text-shadow:  rgb(0, 0, 0) 1px 1px 3px;
+        background-color: rgba(0, 0, 0, 0.5);
     }
 
     .join-button a {
@@ -328,7 +338,9 @@
 
     .news-title {
         font-size: 32px;
-        text-shadow:  rgb(75, 75, 75) 3px 3px 5px;
+        text-shadow:  rgb(0, 0, 0) 2px 2px 3px;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 5px;
 
     }
 
@@ -365,7 +377,7 @@
         position: relative;
         z-index: 1;
         color: white;
-        text-shadow:  rgb(93, 93, 93) 3px 3px 5px;
+        background-color: rgba(0, 0, 0, 0.5);
     }
 
     .spotlight1 .title-2 {
@@ -374,7 +386,7 @@
         z-index: 1;
         color: rgb(255, 255, 255);
         text-shadow:  rgb(0, 0, 0) 2px 2px 5px;
-        background-color: rgb(150, 150, 150);
+        background-color: rgba(0, 0, 0, 0.5);
     }
 
     .spotlight1 img {
@@ -414,7 +426,8 @@
         position: relative;
         z-index: 1;
         color: white;
-        text-shadow:  rgb(0, 0, 0) 5px 3px 5px;
+        background-color: rgba(0, 0, 0, 0.5);
+        text-shadow:  rgb(0, 0, 0) 1px 1px 5px;
     }
 
     .spotlight2 .title-2 {
@@ -423,7 +436,7 @@
         z-index: 1;
         color: rgb(255, 255, 255);
         text-shadow:  rgb(0, 0, 0) 2px 2px 5px;
-        background-color: rgb(150, 150, 150);
+        background-color: rgba(0, 0, 0, 0.5);
     }
 
     .spotlight2 img {
@@ -453,6 +466,7 @@
         position: relative;
         z-index: 1;
         color: white;
+        background-color: rgba(0, 0, 0, 0.5);
         text-shadow:  rgb(0, 0, 0) 3px 3px 5px;
     }
 
@@ -462,7 +476,7 @@
         z-index: 1;
         color: rgb(255, 255, 255);
         text-shadow:  rgb(0, 0, 0) 2px 2px 5px;
-        background-color: rgb(150, 150, 150);
+        background-color: rgba(0, 0, 0, 0.5);
     }
 
     .spotlight3 img {
