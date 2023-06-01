@@ -9,8 +9,8 @@
     height: 400px;
     margin-bottom: 20px;
     opacity: 0;
-    transition: opacity 0.5s ease, filter 0.5s ease; /* Agregamos 'filter' a la transición */
-    filter: blur(8px); /* Agregamos el filtro de desenfoque */
+    transition: opacity 0.5s ease, filter 0.5s ease;
+    filter: blur(8px);
 }
   
   img.placeholder {
