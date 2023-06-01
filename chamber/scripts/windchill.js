@@ -33,3 +33,4 @@ function displayNA() {
   const windChillElement = document.getElementById("wind-chill");
   windChillElement.innerText = 'N/A';
 }
+

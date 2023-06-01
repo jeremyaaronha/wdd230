@@ -1,0 +1,31 @@
+#image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  img {
+    width: 300px;
+    height: 400px;
+    margin-bottom: 20px;
+    opacity: 0;
+    transition: opacity 0.5s ease, filter 0.5s ease; /* Agregamos 'filter' a la transición */
+    filter: blur(8px); /* Agregamos el filtro de desenfoque */
+}
+  
+  img.placeholder {
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  img.loaded {
+    opacity: 1;
+    filter: blur(0);
+  }  
+  h1 {
+    text-align: center;
+  }
