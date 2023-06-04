@@ -1,8 +1,11 @@
 
     body {
         background-color: rgb(0, 0, 0);
-        max-height: 1200vh;
+        max-height: 2000vh;
         min-width: 46vh;
+        height: auto;
+        min-height: 170vh;
+        position: relative;
     }
     
     /* Header */
@@ -147,9 +150,8 @@
         grid-template-columns: 3fr 3fr 4fr;
         grid-template-rows: repeat(5, 4fr ) 15fr;
         text-align: center;
-        height: 300vh;
+        height: auto;
         font-family: 'Lato', sans-serif;
-
     }
     
     .hero {
@@ -495,6 +497,9 @@
         color: white;
         text-align: center;
         font-family: 'Lato', sans-serif;
+        padding: 5px;
+        bottom: 0;
+        left: 0;
     }
     
     .footer-contact-info p a{
