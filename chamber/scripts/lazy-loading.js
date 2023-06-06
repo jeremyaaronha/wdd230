@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     }
                 });
             }, {
-                rootMargin: '-200px' 
+                rootMargin: '-190px' 
             });
 
             io.observe(target);
