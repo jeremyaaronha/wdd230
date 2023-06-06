@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lo Campino Chamber of Commerce Web Page</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="styles/base.css">
+    <link rel="stylesheet" type="text/css" href="styles/medium.css">
+	<link rel="stylesheet" type="text/css" href="styles/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+</head>
+<body class="body-discover">
+    <header>
+
+        <div class="headers">
+            <a href="index.html"><img src="images/lccoc-logo.webp" alt="Chamber-Of-Commerce-Logo"></a>
+            <div class="name">
+                <h1>Lo Campino</h1>
+                <h2>Chamber of Commerce</h2>
+            </div>
+
+            <nav class="nav-bar">
+                <ul id="secondaryNav">
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="#">Directory</a></li>
+                    <li><a href="#">Join</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="social-icons">
+                <a class="social-icons" href="https://www.facebook.com/" target="_blank"><img src="images/facebook-logo.png" alt="Facebook Logo"></a>
+                <a class="social-icons" href="https://www.linkedin.com/feed/" target="_blank"><img src="images/linkedin-logo.png" alt="LinkedIn Logo"></a>    
+            </div>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+
+        </div>
+
+        <nav class="nav-bar">
+            <ul id="primaryNav">
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+
+        <nav class="now-date">
+            <span id="date"></span>
+            <span id="last-visit-info"></span>
+        </nav>
+    </header>
+
+    <main class="discover-page">
+        <div class="image-gallery">
+                <div id="imagePopup" class="popup">
+                    <div class="popup-content">
+                        <img id="popupImage" src="" alt="Popup Image">
+                        <button id="closeButton">Close</button>
+                        <p id="popupText"></p>
+                    </div>
+                </div>
+                <picture>
+                    <source media="(max-width: 505px)" src="images/placeholder.png" srcset="images/discover-img-1-500.jpg" alt="Coast House Image" loading="lazy">
+                    <source media="(max-width: 800px)" src="images/placeholder.png" srcset="images/discover-img-1-800.jpg" alt= "Coast House Image" loading="lazy">
+                    <img src="images/placeholder.png" data-src="images/discover-img-1.webp" alt="Invest Image" loading="lazy">          
+              </picture>
+                <p >Relax with a view of the sea and coastal houses in our city. A charming landscape that combines the serenity of the ocean with picturesque architecture.</p>
+                <picture>
+                    <source media="(max-width: 505px)" src="images/placeholder.png" srcset="images/discover-img-2-500.jpg" alt="Forest Image" loading="lazy">
+                    <source media="(max-width: 800px)" src="images/placeholder.png" srcset="images/discover-img-2-800.jpg" alt= "Forest Image" loading="lazy">
+                    <img src="images/placeholder.png" data-src="images/discover-img-2.webp" alt="Invest Image" loading="lazy">                  </picture>
+                <p>Explore trails in the forest and immerse yourself in nature. A peaceful and beautiful place to enjoy walks among trees and lush vegetation.</p>
+                <picture>
+                    <source media="(max-width: 505px)" src="images/placeholder.png" srcset="images/discover-img-3-500.jpg" alt="Lights Image" loading="lazy">
+                    <source media="(max-width: 800px)" src="images/placeholder.png" srcset="images/discover-img-3-800.jpg" alt= "Ligths Image" loading="lazy">
+                    <img src="images/placeholder.png" data-src="images/discover-img-3.webp" alt="Invest Image" loading="lazy">                  </picture>
+                <p>Witness the awe-inspiring beauty of the Northern Lights. A captivating display of dancing colors in the night sky that will leave you breathless.</p>
+                <picture>
+                    <source media="(max-width: 505px)" src="images/placeholder.png" srcset="images/discover-img-4-500.jpg" alt="Lake Image" loading="lazy">
+                    <source media="(max-width: 800px)" src="images/placeholder.png" srcset="images/discover-img-4-800.jpg" alt= "Lake Image" loading="lazy">
+                    <img src="images/placeholder.png" data-src="images/discover-img-4.webp" alt="Invest Image" loading="lazy">                  </picture>
+                <p>Immerse yourself in the tranquility of a serene lake. Crystal-clear waters and stunning landscapes that invite relaxation and appreciation of nature.</p>
+                <picture>
+                    <source media="(max-width: 505px)" src="images/placeholder.png" srcset="images/discover-img-5-500.jpg" alt="Rides Image" loading="lazy">
+                    <source media="(max-width: 800px)" src="images/placeholder.png" srcset="images/discover-img-5-800.jpg" alt= "Rides Image" loading="lazy">
+                    <img src="images/placeholder.png" data-src="images/discover-img-5.jpeg" alt="Invest Image" loading="lazy">                  </picture>
+                <p>Have a blast at our amusement park. Thrilling rides, roller coasters, and entertainment for the whole family. Create unforgettable memories in an atmosphere filled with fun and excitement!</p>
+            </div>
+        </div>
+        
+        <div class="demographic-data">
+            <h2>Demographic Data</h2>
+            <ul>
+              <li><strong>Population:</strong> 500,000</li>
+              <li><strong>Area:</strong> 1000 square kilometers</li>
+              <li><strong>Coastline:</strong> 50 kilometers</li>
+              <li><strong>Mountains:</strong> 10 major peaks</li>
+              <li><strong>Lakes:</strong> 5 beautiful lakes</li>
+              <li><strong>Forests:</strong> 80% of the total area</li>
+              <li><strong>Aurora Borealis:</strong> Visible 100 nights per year</li>
+              <li><strong>Amusement Parks:</strong> 3 thrilling parks</li>
+            </ul>
+          </div>
+        
+          <div class="city-info">
+            <p>
+                Discover our unique city! With a population of 500,000, we offer an impressive landscape that combines mountains, sea, lakes and forests. In addition, you can enjoy the magical northern lights and exciting amusement parks. Our city invites you to explore outdoor activities like hiking, skiing, boating, and fishing. Get ready to immerse yourself in the natural beauty, vibrant culture, and exciting adventures our city has to offer. We are waiting with open arms!
+            </p>
+
+    </main>
+
+    <footer>
+        <div class="footer-logo">
+            <a href="index.html"><img src="images/lccoc-logo.webp" alt="Lo Campino Chamber of Commerce Logo"></a>
+        </div>
+        <div class="footer-info">
+            <p>Lo Campino Chamber of Commerce</p>
+            <p class="address">Camino del Cerro 1574</p>
+        </div>
+        <div class="footer-contact-info">
+            <p class="mail">info@locampinochamber.org</p>
+            <p class="phone-number"> + 56 9 1234 5678</p>
+            <p class="address-link"><a href="https://www.google.com/maps/place/Estados+Unidos/@35.7013128,-116.933233,4z/data=!3m1!4b1!4m6!3m5!1s0x54eab584e432360b:0x1c3bb99243deb742!8m2!3d37.09024!4d-95.712891!16zL20vMDljN3cw" target="_blank">Location Map</a></p>
+        </div>
+        <div class="footer-last">
+            <a>© <span id="currentYear"></span> Lo Campino Chamber | Jeremy Herrera | WDD 230 Proyect |</a>
+            <p>Last Modification: <span id="lastUpdated"></span></p>
+        </div>
+
+
+          
+    </footer>
+    <script src="scripts/scripts.js"></script>
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/full-screen.js"></script>
+    <script src="scripts/last-visit.js"></script>
+    <script src="scripts/lazy-loading.js"></script>
+
+
+</body>
+</html>

@@ -84,4 +84,37 @@ footer {
     grid-column: 1/4;
 }
 
+/* Discover */
+
+.discover-page .city-info {
+    font-size: 2.5em;
+    line-height: 1.4em;
+    padding: 55px;
+}
+
+.discover-page .image-gallery p {
+    font-size: 1.4em;
+}
+
+.discover-page .demographic-data li {
+    font-size: 2.5em;
+    margin-top: 1em;
+}
+
+
+.discover-page .demographic-data h2 {
+    font-size: 4em;
+}
+
+.image-gallery img:hover {
+    -webkit-transform: scale(1.04);
+    -ms-transform: scale(1.04);
+    transform: scale(1.04);
+    transition: 0.5s ease;
+}
+
+.popup-content {
+    transform: scale(1.2);
+}
+
 }

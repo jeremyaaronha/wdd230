@@ -3,9 +3,7 @@
         background-color: rgb(0, 0, 0);
         max-height: 2000vh;
         min-width: 46vh;
-        height: auto;
         min-height: 170vh;
-        position: relative;
     }
     
     /* Header */
@@ -498,8 +496,6 @@
         text-align: center;
         font-family: 'Lato', sans-serif;
         padding: 5px;
-        bottom: 0;
-        left: 0;
     }
     
     .footer-contact-info p a{
@@ -522,3 +518,136 @@
     
 
 
+/*Discover Page */
+
+.discover-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 3fr;
+    background-color: rgb(216, 216, 195);
+    height: auto;
+}
+
+.discover-page .demographic-data {
+    grid-row: 1/2;
+    grid-column: 1/4;
+    color: black;
+    background-color: rgb(216, 216, 195);
+    padding: 20px;
+    align-items: center;
+  }
+  
+  .discover-page .demographic-data h2 {
+    font-size: 48px;
+    margin-top: 50px;
+    color: rgb(0, 0, 0);
+    padding: 10px; 
+
+  }
+  
+  .demographic-data ul {
+    list-style-type: none;
+    padding: 20px;
+  }
+  
+  .discover-page .demographic-data li {
+    margin: 10px;
+    font-size: 24px;
+
+  }
+
+.discover-page .city-info {
+    grid-row: 2/3;
+    grid-column: 1/4;
+    border-top: 1px solid black;
+    color: black;
+    background-color: rgb(216, 216, 195);
+    display: grid;
+    padding: 30px;
+    font-size: 24px;
+    line-height: 40px;
+    align-items: center;
+}
+
+.discover-page .image-gallery {
+    grid-row: 3/4;
+    grid-column: 1/4;
+    border-radius: 10px;
+
+}
+
+.discover-page .image-gallery img {
+    margin: 1px;
+    width: 80%;
+}
+
+.image-gallery img:hover {
+    cursor: pointer;
+}
+
+.discover-page .image-gallery p {
+    color: white;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-shadow:  rgb(0, 0, 0) 2px 2px 5px;
+    margin: 10px;
+}
+
+
+    .popup {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        z-index: 9999;
+    }
+
+    .popup-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 90%;
+        width: 90%;
+        transform: scale(1.5);
+        margin-left: 60px;
+        margin-right: 60px;
+        padding: 10px;
+        margin-top: 70px;
+        color: white;
+    }
+
+    #popupImage {
+        max-width: 100%;
+        max-height: 100%;
+        opacity: 1;
+    }
+
+    #closeButton {
+        margin-top: 20px;
+        font-size: 1em;
+        padding: 10px 20px;
+        background-color: #fff;
+        color: #000;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+
+        .discover-page img {
+            opacity: 0; 
+            transition: opacity 0.3s ease;
+        }
+
+        img.is-visible {
+            opacity: 1;
+            transition: opacity 1.3s ease;
+
+        }
+
+        .image-loaded {
+            transition: opacity 1.3s ease;
+        }
