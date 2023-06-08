@@ -51,3 +51,8 @@ if (currentDay === 1 || currentDay === 2) {
   const header = document.querySelector('header');
   header.insertBefore(banner, header.firstChild);
 }
+
+
+  // Set the value of the hidden field with the current date and time
+  var formattedDateISOS = currentDate.toISOString();
+  document.getElementById("form-load-time").value = formattedDateISOS;

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lo Campino Chamber of Commerce Web Page</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="styles/base.css">
+    <link rel="stylesheet" type="text/css" href="styles/medium.css">
+	<link rel="stylesheet" type="text/css" href="styles/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+
+        <div class="headers">
+            <a href="index.html"><img src="images/lccoc-logo.webp" alt="Chamber-Of-Commerce-Logo"></a>
+            <div class="name">
+                <h1>Lo Campino</h1>
+                <h2>Chamber of Commerce</h2>
+            </div>
+
+            <nav class="nav-bar">
+                <ul id="secondaryNav">
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="#">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="social-icons">
+                <a class="social-icons" href="https://www.facebook.com/" target="_blank"><img src="images/facebook-logo.png" alt="Facebook Logo"></a>
+                <a class="social-icons" href="https://www.linkedin.com/feed/" target="_blank"><img src="images/linkedin-logo.png" alt="LinkedIn Logo"></a>    
+            </div>
+            <button id="hamburgerBtn"><span>&#9776</span><span>X</span></button>
+
+        </div>
+
+        <nav class="nav-bar">
+            <ul id="primaryNav">
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+
+        <nav class="now-date">
+            <span id="date"></span>
+            <span id="last-visit-info"></span> 
+       </nav>
+    </header>
+
+    <main class="join-page">
+ 
+        <h1>Course Proposal Application:</h1>
+        <form method="get" action="thanks.html">
+
+            <fieldset>
+
+                <legend>Applicant Information</legend>
+                <label class="top">First Name* <input type="text" name="fname" required></label>
+                <label class="top">Last Name* <input type="text" name="lname" required></label>
+                <label class="top">Business Position Title - (at least seven alpha characters, hyphens, or spaces)  <input type="text" name="business-position" pattern="[A-Za-z\s\-]{7,}" placeholder="ex: Marketing Director" ></label>
+                <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="top">Phone* <input type="tel" name="phone" placeholder="987654321" required></label>
+                <label class="top">Business Name<input type="text" name="business-name" placeholder="ex: The Bookworm Bookstore" required ></label>
+                <label class="top">Business Description<textarea name="business-description" rows="10" cols="40"></textarea></label>
+                <label class="hidden"><input type="hidden" name="form-load-time" id="form-load-time"></label>
+
+            </fieldset>
+            
+            <fieldset>
+
+                <legend>Membership Level</legend>
+                <label class="sbs"><input type="radio" name="membership" value="membership"> NP Membershiper - (for non profit organizations - there is no fee)</label>
+                <label class="sbs"><input type="radio" name="membership" value="membership"> Bronze Membership</label>
+                <label class="sbs"><input type="radio" name="membership" value="membership"> Silver Membership</label>
+                <label class="sbs"><input type="radio" name="membership" value="membership"> Gold Membership</label>
+
+            </fieldset>
+
+            <div class="submit-container">
+                <input type="submit" value="Apply for Membership" class="submitBtn">
+            </div>
+        </form>
+
+        <div class="memberships-info">
+
+            <div class="np-membership-info">
+                <h2>NP Mebership (Non-Profit)</h2>
+                <h3>Benefits:</h3>
+                <ul>
+                  <li>Access to networking events and workshops.</li>
+                  <li>Listing in the Chamber's online directory.</li>
+                  <li>Promotion of events and news through the Chamber's social media channels.</li>
+                  <li>Opportunity to collaborate with other non-profit organizations.</li>
+                </ul>
+                
+                <h3>Requirements:</h3>
+                <ul>
+                  <li>Must be a registered non-profit organization.</li>
+                  <li>Provide proof of non-profit status.</li>
+                  <li>Commitment to the Chamber's mission and values.</li>
+                </ul>
+
+            </div>
+
+            <div class="bronze-membership-info">
+                <h2>Bronze Membership</h2>
+    
+                <h3>Benefits:</h3>
+                <ul>
+                <li>All benefits of NP Membership, plus:</li>
+                <li>Increased exposure through featured listings on the Chamber's website.</li>
+                <li>Discounts on advertising and sponsorship opportunities.</li>
+                <li>Access to exclusive industry reports and market insights.</li>
+                </ul>
+                
+                <h3>Requirements:</h3>
+                <ul>
+                <li>Pay the designated membership fee.</li>
+                <li>Provide a brief description of the business or organization.</li>
+                <li>Agree to abide by the Chamber's code of conduct.</li>
+                </ul>
+            </div>
+
+            <div class="silver-membership-info">
+                <h2>Silver Membership</h2>
+                
+                <h3>Benefits:</h3>
+                <ul>
+                <li>All benefits of Bronze Membership, plus:</li>
+                <li>Priority access to Chamber events and programs.</li>
+                <li>Enhanced visibility through prominent logo placement on Chamber materials.</li>
+                <li>Exclusive invitations to industry-specific workshops and seminars.</li>
+                <li>Access to member-only resources and business support services.</li>
+                </ul>
+                
+                <h3>Requirements:</h3>
+                <ul>
+                <li>Pay the designated membership fee, higher than the Bronze level.</li>
+                <li>Demonstrate a commitment to business growth and community engagement.</li>
+                <li>Provide testimonials or references from other Chamber members.</li>
+                </ul>
+            </div>
+
+            <div class="gold-membership-info">
+                <h2>Gold Membership</h2>
+                
+                <h3>Benefits:</h3>
+                <ul>
+                <li>All benefits of Silver Membership, plus:</li>
+                <li>Premium listing in the Chamber's online directory.</li>
+                <li>Exclusive sponsorship opportunities at Chamber events.</li>
+                <li>Personalized business advisory services from Chamber experts.</li>
+                <li>Invitations to high-level networking events and executive roundtables.</li>
+                </ul>
+                
+                <h3>Requirements:</h3>
+                <ul>
+                <li>Pay the designated membership fee, higher than the Silver level.</li>
+                <li>Show a strong track record of business success and community involvement.</li>
+                <li>Participate in Chamber committees or leadership roles.</li>
+                </ul>
+            </div>
+          
+
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer-logo">
+            <a href="index.html"><img src="images/lccoc-logo.webp" alt="Lo Campino Chamber of Commerce Logo"></a>
+        </div>
+        <div class="footer-info">
+            <p>Lo Campino Chamber of Commerce</p>
+            <p class="address">Camino del Cerro 1574</p>
+        </div>
+        <div class="footer-contact-info">
+            <p class="mail">info@locampinochamber.org</p>
+            <p class="phone-number"> + 56 9 1234 5678</p>
+            <p class="address-link"><a href="https://www.google.com/maps/place/Estados+Unidos/@35.7013128,-116.933233,4z/data=!3m1!4b1!4m6!3m5!1s0x54eab584e432360b:0x1c3bb99243deb742!8m2!3d37.09024!4d-95.712891!16zL20vMDljN3cw" target="_blank">Location Map</a></p>
+        </div>
+        <div class="footer-last">
+            <a>© <span id="currentYear"></span> Lo Campino Chamber | Jeremy Herrera | WDD 230 Proyect |</a>
+            <p>Last Modification: <span id="lastUpdated"></span></p>
+        </div>
+    </footer>
+    <script src="scripts/scripts.js"></script>
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/full-screen.js"></script>
+    <script src="scripts/last-visit.js"></script>
+    <script src="scripts/lazy-loading.js"></script>
+
+</body>
+</html>
