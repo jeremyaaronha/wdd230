@@ -53,9 +53,13 @@ header h1 {
 footer {
     background-color: #37302a;
     padding: 1em;
-    color: white;
-    font-size: 2em;
     text-align: center;
     border-top: solid rgb(14, 7, 1) 1px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
 }
