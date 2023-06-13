@@ -5,27 +5,16 @@
   <link rel="stylesheet" href="lazy-loading.css">
 </head>
 <body>
-  <h1>Lazy Loading Images</h1>
-  <div id="image-container">
-    <picture>
-      <img data-src="images/image1.jpeg" alt="Image 1">
-    </picture>
-    <picture>
-      <img data-src="images/image2.jpeg" alt="Image 2">
-    </picture>
-    <picture>
-      <img data-src="images/image3.jpeg" alt="Image 3">
-    </picture>
-    <picture>
-      <img data-src="images/image4.jpeg" alt="Image 4">
-    </picture>
-    <picture>
-      <img data-src="images/image5.jpeg" alt="Image 5">
-    </picture>
-    <picture>
-      <img data-src="images/image6.jpeg" alt="Image 6">
-    </picture>
-  </div>
+  <main>
+    <h1>Lazy Loading Images</h1>
+    <section id="image-container">
+      <img src="images/placeholder.png" data-src="images/image1.jpeg" alt="Image 1">
+      <img src="images/placeholder.png" data-src="images/image2.jpeg" alt="Image 2">
+      <img src="images/placeholder.png" data-src="images/image3.jpeg" alt="Image 3">
+      <img src="images/placeholder.png" data-src="images/image4.jpeg" alt="Image 4">
+      <img src="images/placeholder.png" data-src="images/image5.jpeg" alt="Image 5">
+    </section>
+  </main>
 
   <script src="lazy-loading.js"></script>
 </body>
