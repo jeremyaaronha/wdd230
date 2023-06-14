@@ -177,16 +177,21 @@ form input.submitBtn {
 /** ---------- Directory Page ----------**/
 
 .directory-page {
-    max-height: 130em;
+    max-height: 120em;
 }
   
 .cards {
-    grid-template-columns: repeat(auto-fit, minmax(329px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(319px, 1fr));
 }
   
 .directory-page .card {
-    width: 19em;
+    width: 18.5em;
+    
 }
+
+.directory-page .card img {
+    height: 14em;
+  }
 
 .directory-page .card h2,p,a {
     padding: 0px;
