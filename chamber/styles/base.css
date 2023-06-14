@@ -886,6 +886,7 @@ form label.top input:required:valid {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
   justify-items: center;
   margin: 10px;
+  width: 95%;
 }
 
 .directory-page .card {
@@ -919,7 +920,7 @@ form label.top input:required:valid {
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
   height: 11em;
-  width: 90%;
+  width: 89%;
 }
 
 #business-list.list .card img {
