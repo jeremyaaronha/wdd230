@@ -1,0 +1,84 @@
+{
+    "companies": [
+      {
+        "name": "Company A",
+        "address": "123 Main Street, City A",
+        "phone": "123-456-7890",
+        "website": "https://www.companya.com",
+        "image": "companya.png",
+        "membershipLevel": "Gold",
+        "otherInfo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      {
+        "name": "Company B",
+        "address": "456 Park Avenue, City B",
+        "phone": "987-654-3210",
+        "website": "https://www.companyb.com",
+        "image": "companyb.png",
+        "membershipLevel": "Silver",
+        "otherInfo": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem."
+      },
+      {
+        "name": "Company C",
+        "address": "789 Broadway, City C",
+        "phone": "555-123-4567",
+        "website": "https://www.companyc.com",
+        "image": "companyc.png",
+        "membershipLevel": "Bronze",
+        "otherInfo": "Duis aute irure dolor in reprehenderit in voluptate velit."
+      },
+      {
+        "name": "Company D",
+        "address": "321 Elm Street, City D",
+        "phone": "777-888-9999",
+        "website": "https://www.companyd.com",
+        "image": "companyd.png",
+        "membershipLevel": "Gold",
+        "otherInfo": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      },
+      {
+        "name": "Company E",
+        "address": "555 Oak Avenue, City E",
+        "phone": "444-555-6666",
+        "website": "https://www.companye.com",
+        "image": "companye.png",
+        "membershipLevel": "Silver",
+        "otherInfo": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      },
+      {
+        "name": "Company F",
+        "address": "777 Pine Street, City F",
+        "phone": "222-333-4444",
+        "website": "https://www.companyf.com",
+        "image": "companyf.png",
+        "membershipLevel": "Bronze",
+        "otherInfo": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit."
+      },
+      {
+        "name": "Company G",
+        "address": "999 Chestnut Avenue, City G",
+        "phone": "666-777-8888",
+        "website": "https://www.companyg.com",
+        "image": "companyg.png",
+        "membershipLevel": "Gold",
+        "otherInfo": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur."
+      },
+      {
+        "name": "Company H",
+        "address": "222 Walnut Street, City H",
+        "phone": "111-222-3333",
+        "website": "https://www.companyh.com",
+        "image": "companyh.png",
+        "membershipLevel": "Silver",
+        "otherInfo": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti qu."
+      },
+      {
+        "name": "Company I",
+        "address": "456 Sky Street, City I",
+        "phone": "111-222-3333",
+        "website": "https://www.companyh.com",
+        "image": "companyh.png",
+        "membershipLevel": "Silver",
+        "otherInfo": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti qu."
+      }]
+}
