@@ -188,6 +188,7 @@ left: 50%;
 transform: translate(-50%, -50%);
 
 
+
 }
 .hero .contact-button a {
 font-size: 20px;
@@ -574,11 +575,14 @@ grid-row: 3/4;
 grid-column: 1/4;
 border-radius: 10px;
 
+
 }
 
 .discover-page .image-gallery img {
 margin: 1px;
 width: 80%;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+
 }
 
 .image-gallery img:hover {
@@ -591,7 +595,9 @@ padding: 20px;
 background-color: rgba(0, 0, 0, 0.5);
 text-shadow:  rgb(0, 0, 0) 2px 2px 5px;
 margin: 10px;
-border-radius: 100px;
+border-radius: 10px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+
 
 }
 
@@ -677,6 +683,8 @@ transition: opacity 1.3s ease;
   margin: 2px 0.5 0 .5em;
   width: 150%;
   max-width: 30em;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+
 }
 
 form fieldset {
@@ -864,10 +872,91 @@ form label.top input:required:valid {
 }
 
 /** ---------- Directory Page ----------**/
-
-.directory-page h2,h3,h4,h5{
-  color: white;
+.directory-page {
+  background-color: rgb(216, 216, 195);
+  grid-template-columns: none;
+  color: black;
+  max-height: 320em;
 }
+
+.cards {
+  display: grid;
+  background-color: rgb(216, 216, 195);
+  grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  justify-items: center;
+  margin: 10px;
+}
+
+.directory-page .card {
+  margin: 10px 5px 10px 5px;
+  padding: 10px;
+  background-color: rgb(251, 251, 251);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  width: 25em;
+  height: 31em;
+
+}
+
+.directory-page .card img {
+  width: auto;
+  height: 18em;
+}
+
+.directory-page #business-list.list {
+  max-height: 21em;
+  margin-top: -5em;
+}
+
+#business-list.list .card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+  margin: 10px 15px 10px 15px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+  height: 11em;
+  width: 90%;
+}
+
+#business-list.list .card img {
+  display: none;
+}
+
+#business-list.list .card h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-left: 24px;
+}
+
+#business-list.list .card p,a {
+  font-size: 14px;
+  margin-bottom: 5px;
+  margin-left: 24px;
+}
+
+.directory-page .buttons {
+  height: 5em;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.directory-page .buttons button {
+  height: 3em;
+  padding: 1em;
+  font-size: 1em;
+  margin: 1em;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .5);
+}
+
+
+
 
 
 

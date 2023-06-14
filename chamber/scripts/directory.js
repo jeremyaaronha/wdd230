@@ -1,51 +1,71 @@
 const url = 'data.json';
 
-async function getProphetData(url) {
+async function getBusinessData(url) {
+  try {
     const response = await fetch(url);
     const data = await response.json();
-    //console.table(data.prophets);
-    displayProphets(data.companies);
+    displayBusinesses(data.companies);
+  } catch (error) {
+    console.error('Error al obtener los datos del archivo JSON:', error);
   }
-  
-getProphetData(url);
+}
 
-const displayProphets = (companies) => {
-    const cards = document.querySelector('div.container'); // select the output container element
-  
-    companies.forEach((companie) => {
-      // Create elements to add to the div.cards element
-      let card = document.createElement('section');
-      let h2 = document.createElement('h2');
-      let h3 = document.createElement('h3');
-      let h4 = document.createElement('h4');
-      let h5 = document.createElement('h5');
-      let h6 = document.createElement('h6');
-      let portrait = document.createElement('img');
+function displayBusinesses(companies) {
+  const businessList = document.getElementById('business-list');
 
-  
-      // Build the h2 content out to show the prophet's full name - finish the template string
-      h2.textContent = `${companie.name} `;
-      h3.textContent = `Birth Date: ${prophet.birthdate}`;
-      h4.textContent = `Birth Place: ${prophet.birthplace}`;
-      h5.textContent = `Death: ${prophet.death}`;
-      h6.textContent = `Number of children: ${prophet.numofchildren}`;
-  
-      // Build the image portrait by setting all the relevant attribute
-      portrait.setAttribute('src', prophet.imageurl);
-      portrait.setAttribute('alt', `Portait of ${prophet.name} Latter-day President`);
-      portrait.setAttribute('loading', 'lazy');
-      portrait.setAttribute('width', '340');
-      portrait.setAttribute('height', '440');
-  
-      // Append the section(card) with the created elements
-      card.appendChild(h2);
-      card.appendChild(h3);
-      card.appendChild(h4);
-      card.appendChild(h5);
-      card.appendChild(h6);
-      card.appendChild(portrait);
-  
-      cards.appendChild(card);
-    }) // end of forEach loop
-} // end of function expression
+  companies.forEach(company => {
+    const card = document.createElement('div');
+    card.classList.add('card');
 
+    const img = document.createElement('img');
+
+    const name = document.createElement('h2');
+    name.textContent = company.name;
+
+    const address = document.createElement('p');
+    address.textContent = `Address: ${company.address}`;
+
+    const phone = document.createElement('p');
+    phone.textContent = `Phone: ${company.phone}`;
+
+    const website = document.createElement('a');
+    website.textContent = `Website : ${company.website}`;
+    website.href = company.website;
+
+    const membership = document.createElement('p');
+    membership.textContent = `Membership: ${company.membershipLevel}`;
+
+    // Set the image source, alt text, and other attributes
+    img.src = `${company.image}`;
+    img.alt = `Logo of ${company.name}`;
+    img.loading = 'lazy';
+    img.width = 200;
+    img.height = 200;
+
+    card.appendChild(img);
+    card.appendChild(name);
+    card.appendChild(address);
+    card.appendChild(phone);
+    card.appendChild(website);
+    card.appendChild(membership);
+
+    businessList.appendChild(card);
+  });
+}
+
+getBusinessData(url);
+
+
+const cardsBtn = document.getElementById('cardsBtn');
+const listBtn = document.getElementById('listBtn');
+const businessList = document.getElementById('business-list');
+
+cardsBtn.addEventListener('click', () => {
+  businessList.classList.remove('list');
+  businessList.classList.add('cards');
+});
+
+listBtn.addEventListener('click', () => {
+  businessList.classList.remove('cards');
+  businessList.classList.add('list');
+});

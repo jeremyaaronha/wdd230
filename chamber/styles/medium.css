@@ -147,4 +147,43 @@ form input.submitBtn {
     grid-row: 3/7;
 }
 
+
+/** ---------- Directory Page ----------**/
+.directory-page {
+    max-height: 200em;
+  }
+  
+  .cards {
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  }
+  
+  .directory-page .card {
+    width: 20em;
+    height: 31em;
+  }
+  
+  .directory-page .card img {
+    height: 15em;
+  }
+
+  .directory-page #business-list.list {
+    max-height: 40em;
+    margin-top: -12em;
+  }
+
+
+  #business-list.list .card {
+    width: 94%;
+  }
+
+  .directory-page .buttons {
+    height: 8em;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .directory-page .buttons button {
+    font-size: 1.3em;
+  }
+
 }
