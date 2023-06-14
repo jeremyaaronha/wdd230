@@ -863,3 +863,12 @@ form label.top input:required:valid {
 
 }
 
+/** ---------- Directory Page ----------**/
+
+.directory-page h2,h3,h4,h5{
+  color: white;
+}
+
+
+
+
