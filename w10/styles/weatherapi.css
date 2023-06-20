@@ -1,0 +1,36 @@
+body {
+    background: linear-gradient(to bottom, #87ceeb, #8ac9e0, #aacfd8f3, #abd5e3, #cbe3ea, #f0f8ff);
+    background-size: auto 60em;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+  
+
+h1 {
+    text-align: center;
+    font-size: 3.5em;
+}
+h2, p {
+    text-align: center;
+    font-size: 2em;
+}
+  
+figure {
+    text-align: center;
+    margin-top: 20px;
+}
+  
+#weather-icon {
+    width: 100px;
+    height: 100px;
+}
+
+
+
+figcaption {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 0.5em;
+    font-size: 1.2em;
+  }
+  
+  
