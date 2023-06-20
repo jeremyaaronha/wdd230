@@ -5,10 +5,9 @@ body {
     color: white;
 }
   
-
 h1 {
     text-align: center;
-    font-size: 3.5em;
+    font-size: 3em;
 }
 h2, p {
     text-align: center;
@@ -24,8 +23,6 @@ figure {
     width: 100px;
     height: 100px;
 }
-
-
 
 figcaption {
     background-color: rgba(0, 0, 0, 0.1);
