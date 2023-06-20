@@ -40,15 +40,26 @@ main {
     font-size: 32px;
 }
 
-#wind-speed, #wind-chill, #temperature{
-    font-size: 18px;
-
+#result-container p {
+    font-size: 20px;
+    padding: 3px;
+    margin: 10px;
 }
+
+#weather-icon {
+    transform: translate(140%, 170%);
+    height: 15%;
+    width: 20%;
+  }
 
 .join {
     grid-column: 1/2;
     grid-row: 3/4;
     font-size: 24px;
+}
+
+.join p {
+    padding: 10px;
 }
 
 .hero {
@@ -180,7 +191,7 @@ form input.submitBtn {
     max-height: 120em;
 }
   
-.cards {
+.directory-page .cards {
     grid-template-columns: repeat(auto-fit, minmax(319px, 1fr));
 }
   
@@ -193,9 +204,9 @@ form input.submitBtn {
     height: 14em;
   }
 
-.directory-page .card h2,p,a {
-    padding: 0px;
-    margin: -10px;
+.directory-page .card h2,.directory-page .card p, .directory-page .card a {
+    padding: 10px;
+    margin: -5px;
 }
 
 .directory-page #business-list.list {
@@ -204,16 +215,15 @@ form input.submitBtn {
 }
 
 
-#business-list.list .card {
+.directory-page #business-list.list .card {
     flex-direction: row;
     text-align: center;
     justify-content: center;
     width: 95%;
     height: 5em;
-
 }
   
-#business-list.list .card h2, p, a {
+.directory-page #business-list.list .card h2, p, a {
     font-size: 1em;
     padding: 2em;
 }

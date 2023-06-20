@@ -284,7 +284,7 @@ font-size: 32px;
 padding: 10px;
 }
 
-.weather img {
+.weather .background-img {
 position: absolute;
 top: 50%;
 left: 50%;
@@ -292,6 +292,18 @@ transform: translate(-50%, -50%);
 height: 100%;
 width: 100%;
 object-fit: cover;
+}
+
+
+
+#weather-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(220%, 300%);
+  height: 11%;
+  width: 15%;
+  object-fit: cover;
 }
 
 .join {

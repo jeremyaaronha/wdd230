@@ -45,7 +45,11 @@ main {
 
 .join {
     grid-row: 4/5;
-    font-size: 48px;
+    font-size: 42px;
+}
+
+.join-button a {
+    font-size: 32px;
 }
 
 .event {
@@ -66,6 +70,18 @@ main {
 #wind-speed, #wind-chill, #temperature{
     font-size: 32px;
 }
+#result-container p,h2 {
+    padding: 10px;
+  }
+
+#weather-icon {
+    top: 50%;
+    left: 50%;
+    transform: translate(70%, 230%);
+    height: 15%;
+    width: 25%;
+  }
+
 
 /* Footer */
 
