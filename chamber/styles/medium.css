@@ -45,11 +45,12 @@ main {
 
 .join {
     grid-row: 4/5;
-    font-size: 42px;
+    font-size: 2.5em;
 }
 
 .join-button a {
-    font-size: 32px;
+    font-size: .9em;
+    padding: .4em;
 }
 
 .event {
@@ -170,7 +171,7 @@ form input.submitBtn {
   }
   
   .cards {
-    grid-template-columns: repeat(auto-fit, minmax(355px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(376px, 1fr));
   }
   
   .directory-page .card {
@@ -201,5 +202,10 @@ form input.submitBtn {
   .directory-page .buttons button {
     font-size: 1.3em;
   }
+
+
+/** ---------- CONTACT PAGE ---------- **/
+
+
 
 }

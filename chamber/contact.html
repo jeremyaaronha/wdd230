@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lo Campino Chamber of Commerce Discover Page</title>
+    <title>Lo Campino Chamber of Commerce Web Page</title>
     <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="stylesheet" type="text/css" href="styles/base.css">
     <link rel="stylesheet" type="text/css" href="styles/medium.css">
@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
 </head>
-<body class="body-discover">
+<body>
     <header>
 
         <div class="headers">
@@ -35,7 +35,7 @@
                 <a class="social-icons" href="https://www.facebook.com/" target="_blank"><img src="images/facebook-logo.png" alt="Facebook Logo"></a>
                 <a class="social-icons" href="https://www.linkedin.com/feed/" target="_blank"><img src="images/linkedin-logo.png" alt="LinkedIn Logo"></a>    
             </div>
-            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <button id="hamburgerBtn"><span>&#9776</span><span>X</span></button>
 
         </div>
 
@@ -48,21 +48,40 @@
             </ul>
         </nav>
 
+
         <nav class="now-date">
             <span id="date"></span>
-            <span id="last-visit-info"></span>
-        </nav>
+            <span id="last-visit-info"></span> 
+       </nav>
     </header>
 
-    <main class="directory-page">
-
-        <div class="buttons">
-            <button id="cardsBtn">View as Cards ⊞</button>
-            <button id="listBtn">View as List ☰</button>
+    <main class="contact-page">
+        <div class="contact-info">
+            <h1>Contact Information:</h1>
+            <p>123 Main Street, Lo Campino, Santiago, Chile</p>
+            <p>+56 2 1234 5678</p>
+            <p>info@locampinochamber.com</p>
+            <p><a href="https://www.facebook.com/" target="_blank">Facebook: Lo Campino Chamber Of Commerce</a></p>
+            <p><a href="https://www.linkedin.com/feed/" target="_blank">Linkedin: Lo Campino Chamber Of Commerce</a></p>
         </div>
-
-        <div id="business-list" class="cards">
+        <div class="board-directors">
+            <h2>Board of Directors:</h2>
+                <p>President: Maria Gonzalez - president@locampinochamber.com</p>
+                <p>Vice President: Carlos Ramirez - vicepresident@locampinochamber.com</p>
+                <p>Treasurer: Laura Fernandez - treasurer@locampinochamber.com</p>
+                <p>Secretary: Alejandro Silva - secretary@locampinochamber.com</p>
         </div>
+      
+        <form action="#" method="get">
+            <fieldset>
+                <legend>Contact Form</legend>
+                <label class="top">Name: <input type="text" id="name" name="name" required></label>
+                <label class="top">Phone: <input type="text" id="phone" name="phone" required></label>
+                <label class="top">Email:  <input type="email" id="email" name="email" required></label>      
+                <label class="top">Comment/Message: <textarea id="comment" name="comment" rows="5" ></textarea></label>
+                <input type="submit" value="Send Form" class="submitBtn">
+            </fieldset>
+        </form>
 
     </main>
 
@@ -88,7 +107,6 @@
     <script src="scripts/full-screen.js"></script>
     <script src="scripts/last-visit.js"></script>
     <script src="scripts/lazy-loading.js"></script>
-    <script src="scripts/directory.js"></script>
 
 </body>
 </html>

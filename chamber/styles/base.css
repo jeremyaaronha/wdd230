@@ -34,15 +34,18 @@ line-height: 3px;
 padding-top: 30px;
 color: white;
 display: flex;
+width: 100%;
 
 }
 
+
 .headers h1 {
-font-size: 15px;
+font-size: 1.4em;
 }
 
 .headers h2 {
-font-size: 8px;
+font-size: .7em;
+padding: .3em;
 
 }
 
@@ -57,7 +60,7 @@ text-align: left;
 .social-icons {
 background-color: black;
 padding: 5px;
-width: 60%;
+width: 20%;
 text-align: right;
 
 }
@@ -191,7 +194,7 @@ transform: translate(-50%, -50%);
 
 }
 .hero .contact-button a {
-font-size: 20px;
+font-size: 1.2em;
 background-color: white;
 color: rgb(121, 121, 121);
 padding: 10px;
@@ -686,30 +689,30 @@ transition: opacity 1.3s ease;
   position:absolute;
   margin-left: 30px;
   text-shadow:  rgb(143, 142, 142) 1px 1px 5px;
+  font-size: 1.5em;
 
 }
 
 .join-page form {
   background-color: rgb(248, 248, 242);
-  border-radius: 20px;
-  margin: 2px 0.5 0 .5em;
-  width: 150%;
-  max-width: 30em;
+  border-radius: 10px;
+  width: 97.5%;
+  padding: .5em;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
-
+  margin-right: 0px;
 }
 
 form fieldset {
   border: 1px solid #445ba9;
   border-radius: 10px;
-  padding: .5rem 2%;
-  width: 250%;
+  padding: .5rem;
+  width: 90%;
   max-width: 22rem;
   display: block;
   text-align: left;
   margin-top: 100px;
-  margin-left: 50px;
-  margin-bottom: -40px;
+  margin-left: 1em;
+  margin-bottom: 40px;
 
 }
 
@@ -718,7 +721,7 @@ form legend {
   margin: 0 1rem;
   padding: 0 .5rem;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 form label.top, form div {
@@ -730,14 +733,13 @@ form label.top, form div {
 }
 
 form label.top input , form label.top select {
-  -webkit-appearance: none;
   display: block;
   font-size: 1rem;
   border: solid 1px #999;
   border-radius:  4px;
   padding: .75rem;
   color: #555;
-  width: 100%;
+  width: 80%;
   max-width: 20rem;
   background-color: rgba(0, 0, 0, 0.1);
 
@@ -782,17 +784,19 @@ form label.top input:required:valid {
   display: grid;
   grid-column: 1/5;
   grid-row: 2/7;
-  margin-left: 2.5em;
+  margin-left: .5em;
+  margin-right: .5em;
 }
 
 .memberships-info div {
   border-bottom: 1px solid black;
   margin-bottom: 2em;
-  margin-top: .5em;
+  margin-top: 1em;
   padding-bottom:  2em;
-  margin-right: 3em;
+  margin-right: 1em;
   border-radius: 20px;
   box-shadow:  rgb(84, 84, 84) 2px 2px 5px 1px;
+  width: 100%;
 }
 
 .memberships-info h2 {
@@ -810,7 +814,7 @@ form label.top input:required:valid {
 .memberships-info ul li {
   text-align: left;
   padding: 5px;   
-  font-size: 1.3em;
+  font-size: 1em;
 }
 
 .np-membership-info {
@@ -893,28 +897,26 @@ form label.top input:required:valid {
 
 .cards {
   display: grid;
-  background-color: rgb(216, 216, 195);
-  grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+  grid-template-columns: repeat( minmax(320px, 1fr));
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
   justify-items: center;
   margin: 10px;
-  width: 95%;
+  width: 100%;
 }
 
 .directory-page .card {
-  margin: 10px 5px 10px 5px;
-  padding: 10px;
+  margin: .2em .4em .2em 0px;
   background-color: rgb(251, 251, 251);
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
-  width: 25em;
+  width: 20em;
   height: 31em;
 
 }
 
 .directory-page .card img {
   width: auto;
-  height: 18em;
+  height: 15em;
 }
 
 .directory-page #business-list.list {
@@ -967,6 +969,84 @@ form label.top input:required:valid {
   cursor: pointer;
   box-shadow: 0 2px 4px rgba(0, 0, 0, .5);
 }
+
+
+/** ---------- CONTACT PAGE ---------- **/
+
+.contact-page {
+  color: black;
+  background-color: rgb(216, 216, 195);
+  max-height: 300em;
+  display: block;
+}
+
+.contact-page .contact-info {
+  background-color: white;
+  margin: 2em;
+  padding: 2em;
+  text-align: left;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+}
+
+.contact-page .contact-info a {
+  display: flex;
+  margin-left: 0em;
+  padding: 0;
+}
+
+.contact-page p {
+  padding: .3em;
+}
+
+.contact-page .board-directors {
+  background-color: white;
+  margin: 2em;
+  padding: 2em;
+  text-align: left;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+}
+
+.contact-page .board-directors p{
+  padding: 1em;
+}
+
+.contact-page form {
+  background-color: white;
+  margin: 2em;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+  padding: 2.5em;
+}
+
+.contact-page form fieldset {
+  width: 100%;
+  margin: .1em;
+}
+
+.contact-page form input, .contact-page form textarea{
+  background-color: rgb(228, 216, 216);
+  padding: .4em;
+  margin: .5em;
+}
+
+.contact-page form label {
+  text-align: left;
+  width: 80%;
+}
+
+.contact-page form textarea{
+  width: 100%;
+  max-width: 20em;
+  max-height: 30em;
+  min-height: 10em;
+  min-width: 15em;
+}
+
+.contact-page .submitBtn {
+  color: white;
+  background-color: rgb(136, 54, 54);
+}
+
+
 
 
 

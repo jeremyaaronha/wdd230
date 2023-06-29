@@ -2,6 +2,18 @@
 
 /* Header */
 
+.headers .name {
+    width: 20%;
+}
+
+.headers h1 {
+    font-size: 1.5em;
+}
+
+.headers h2 {
+    font-size: .8em;
+}
+
 .headers button {
     display: none;
 }
@@ -55,7 +67,11 @@ main {
 .join {
     grid-column: 1/2;
     grid-row: 3/4;
-    font-size: 24px;
+    font-size: 1.1em;
+}
+
+.join a {
+    font-size: 1.2em;
 }
 
 .join p {
@@ -227,6 +243,45 @@ form input.submitBtn {
     font-size: 1em;
     padding: 2em;
 }
+
+
+/** ---------- CONTACT PAGE ---------- **/
+
+.contact-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.contact-page form {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: .2em;
+}
+
+.contact-page .contact-info {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin: .2em;
+}
+
+
+.contact-page .board-directors {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    margin: .2em;
+    padding: .2em;
+}
+
+.contact-page .board-directors h2,.contact-page .contact-info h1{
+    font-size: 1.5em;
+}
+
+.contact-page form .submitBtn {
+    margin-left: 0px;
+    max-width: 100%;
+}
+
 
 }
 
