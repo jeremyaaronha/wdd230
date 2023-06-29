@@ -41,6 +41,7 @@ main {
 .spotlight1, .spotlight2, .spotlight3 {
     width: 30%;
     height: auto;
+    font-size: 1em;
 }
 
 .join {
