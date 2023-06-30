@@ -6,6 +6,7 @@ min-width: 46vh;
 min-height: 170vh;
 }
 
+
 /* Header */
 
 .banner {
@@ -25,7 +26,7 @@ font-family: 'Lato', sans-serif;
 img {
 width: 120px;
 height: auto;
-border-radius: 10px;
+border-radius: 3px;
 }
 
 .headers {
@@ -40,11 +41,11 @@ width: 100%;
 
 
 .headers h1 {
-font-size: 1.4em;
+font-size: .7em;
 }
 
 .headers h2 {
-font-size: .7em;
+font-size: .3em;
 padding: .3em;
 
 }
@@ -83,7 +84,7 @@ width: 10%;
 
 .headers button:hover {
 background-color: rgb(216, 216, 195);
-border-radius: 100px;
+border-radius: 3px;
 
 }
 
@@ -93,7 +94,7 @@ display: block;
 text-align: center;
 padding: 20px;
 margin: 20px;
-border-radius: 5px;
+border-radius: 3px;
 color: white;
 border: 1px solid rgba(188, 188, 188, 0.5);
 font-size: 20px;
@@ -143,6 +144,11 @@ display: none;
 #hamburgerBtn.open span:nth-child(1) {display: none;}
 #hamburgerBtn.open span:nth-child(2) {display: block;}
 
+
+#hamburgerBtn {
+  height: 2em;
+}
+
 /* Main */
 
 main {
@@ -159,7 +165,7 @@ background-color: rgb(216, 216, 195);
 grid-column: 1/4;
 grid-row: 1/2;
 margin: 10px;
-border-radius: 10px;
+border-radius: 3px;
 position: relative;
 }
 
@@ -197,7 +203,7 @@ font-size: 1.2em;
 background-color: white;
 color: rgb(121, 121, 121);
 padding: 10px;
-border-radius: 5px;
+border-radius: 3px;
 text-decoration: none;
 
 }
@@ -212,7 +218,7 @@ background-color: rgb(216, 216, 195);
 grid-column: 1/4;
 grid-row: 2/3;
 margin: 10px;
-border-radius: 10px;
+border-radius: 3px;
 position: relative;
 }
 
@@ -234,7 +240,7 @@ font-size: 24px;
 color: rgb(121, 121, 121);
 background-color: rgb(255, 255, 255);
 padding: 10px;
-border-radius: 5px;
+border-radius: 3px;
 text-decoration: none;
 }
 
@@ -259,7 +265,7 @@ background-color: rgb(216, 216, 195);
 grid-column: 1/4;
 grid-row: 3/4;
 margin: 10px;
-border-radius: 5px;
+border-radius: 3px;
 position: relative;
 }
 
@@ -313,7 +319,7 @@ background-color: rgb(216, 216, 195);
 grid-column: 1/4;
 grid-row: 4/5;
 margin: 10px;
-border-radius: 5px;
+border-radius: 3px;
 color: white;
 font-size: 24px;
 }
@@ -328,7 +334,7 @@ color: rgb(121, 121, 121);
 background-color: rgb(255, 255, 255);
 padding: 10px;
 text-decoration: none;
-border-radius: 5px;
+border-radius: 3px;
 margin: 10px;
 }
 
@@ -347,7 +353,7 @@ background-color: rgb(216, 216, 195);
 grid-column: 1/4;
 grid-row: 5/6;
 margin: 10px;
-border-radius: 5px;
+border-radius: 3px;
 color: white;
 }
 
@@ -370,7 +376,7 @@ background-color: rgb(216, 216, 195);
 grid-column: 1/4;
 grid-row: 6/7;
 margin: 10px;
-border-radius: 10px;
+border-radius: 3px;
 
 }
 
@@ -380,7 +386,7 @@ grid-column: 3/4;
 grid-row: 1/2;
 margin: 10px;
 height: 27%;
-border-radius: 10px;
+border-radius: 3px;
 position: relative;
 font-size: 20px;
 
@@ -430,7 +436,7 @@ grid-column: 3/4;
 grid-row: 2/3;
 margin: 10px;
 height: 27%;
-border-radius: 10px;
+border-radius: 3px;
 position: relative;
 font-size: 20px;
 }
@@ -470,7 +476,7 @@ grid-column: 3/4;
 grid-row: 3/4;
 margin: 10px;
 height: 27%;
-border-radius: 10px;
+border-radius: 3px;
 position: relative;
 font-size: 20px;
 }
@@ -587,7 +593,7 @@ align-items: center;
 .discover-page .image-gallery {
 grid-row: 3/4;
 grid-column: 1/4;
-border-radius: 10px;
+border-radius: 3px;
 
 
 }
@@ -609,7 +615,7 @@ padding: 20px;
 background-color: rgba(0, 0, 0, 0.5);
 text-shadow:  rgb(0, 0, 0) 2px 2px 5px;
 margin: 10px;
-border-radius: 10px;
+border-radius: 3px;
 box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
 
 
@@ -655,7 +661,7 @@ padding: 10px 20px;
 background-color: #fff;
 color: #000;
 border: none;
-border-radius: 30px;
+border-radius: 3px;
 cursor: pointer;
 }
 
@@ -680,6 +686,7 @@ transition: opacity 1.3s ease;
 .join-page {
   background-color: rgb(216, 216, 195);
   max-height: 300em;
+  width: 100%;
 }
 
 .join-page h1 {
@@ -688,34 +695,34 @@ transition: opacity 1.3s ease;
   position:absolute;
   margin-left: 30px;
   text-shadow:  rgb(143, 142, 142) 1px 1px 5px;
-  font-size: 1.5em;
+  font-size: 1.2em;
 
 }
 
 .join-page form {
   background-color: rgb(248, 248, 242);
-  border-radius: 10px;
-  width: 97.5%;
+  border-radius: 3px;
+  width: 95%;
   padding: .5em;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
   margin-right: 0px;
 }
 
-form fieldset {
+.join-page form fieldset {
   border: 1px solid #445ba9;
-  border-radius: 10px;
-  padding: .5rem;
-  width: 90%;
-  max-width: 22rem;
+  border-radius: 3px;
+  padding: .5em;
+  width: 100%;
+  max-width: 80%;
   display: block;
   text-align: left;
   margin-top: 100px;
-  margin-left: 1em;
+  margin-left: .5em;
   margin-bottom: 40px;
 
 }
 
-form legend {
+.join-page form legend {
   color: #445ba9;
   margin: 0 1rem;
   padding: 0 .5rem;
@@ -723,41 +730,45 @@ form legend {
   font-size: 1em;
 }
 
-form label.top, form div {
+.join-page form label.top, form div {
   display: block;
   padding-top: 1rem;
   color: #9c2c13;
-  font-size: 1.1rem;
+  font-size: .9em;
   padding-bottom: .9em;
 }
 
-form label.top input , form label.top select {
+.join-page form label.top input , form label.top select {
   display: block;
   font-size: 1rem;
   border: solid 1px #999;
-  border-radius:  4px;
+  border-radius:  3px;
   padding: .75rem;
   color: #555;
-  width: 80%;
-  max-width: 20rem;
+  width: 90%;
+  max-width: 20em;
   background-color: rgba(0, 0, 0, 0.1);
 
 }
 
-form label.sbs {
+.join-page form textarea {
+  width: 20em;
+}
+
+.join-page form label.sbs {
   display: block;
   padding: .75rem 0;
   color: #555;
   margin-left: 2px;
-  font-size: 1.1rem;
+  font-size: 1.1em;
 
 }
 
-form input.submitBtn {
+.join-page form input.submitBtn {
   border: none;
   background-color: #9c2c13;
   color: white;
-  border-radius: 1rem;
+  border-radius: 3px;
   padding: .75rem;
   margin: 5rem 0 2rem;
   width: 96%;
@@ -765,21 +776,21 @@ form input.submitBtn {
   font-size: 1.1rem;
 }
 
-form input.submitBtn:hover {
+.join-page form input.submitBtn:hover {
   transform: scale(1.05);
   transition: transform 0.5s;
   cursor: pointer;
 }
 
-form label.top input:required {
+.join-page form label.top input:required {
   border: red solid 2px;
 }
 
-form label.top input:required:valid {
+.join-page form label.top input:required:valid {
   border: green solid 2px;
 }
 
-.memberships-info {
+.join-page .memberships-info {
   display: grid;
   grid-column: 1/5;
   grid-row: 2/7;
@@ -787,59 +798,59 @@ form label.top input:required:valid {
   margin-right: .5em;
 }
 
-.memberships-info div {
+.join-page .memberships-info div {
   border-bottom: 1px solid black;
   margin-bottom: 2em;
   margin-top: 1em;
   padding-bottom:  2em;
   margin-right: 1em;
-  border-radius: 20px;
+  border-radius: 3px;
   box-shadow:  rgb(84, 84, 84) 2px 2px 5px 1px;
   width: 100%;
 }
 
-.memberships-info h2 {
+.join-page .memberships-info h2 {
   font-size: 2em;
 
 }
 
-.memberships-info h3 {
+.join-page .memberships-info h3 {
   font-size: 1.5em;
   text-align: left;
   margin-left: 1em;
 
 }
 
-.memberships-info ul li {
+.join-page .memberships-info ul li {
   text-align: left;
   padding: 5px;   
   font-size: 1em;
 }
 
-.np-membership-info {
+.join-page .np-membership-info {
   background-color: rgba(253, 250, 250, 0.5);
 }
 
-.bronze-membership-info {
+.join-page .bronze-membership-info {
   background-color: rgba(205, 128, 50, 0.825);
 }
 
-.silver-membership-info {
+.join-page .silver-membership-info {
   background-color: rgba(192, 192, 192, 0.876);
 }
 
-.gold-membership-info {
+.join-page .gold-membership-info {
   background-color: rgba(255, 217, 0, 0.3);
 }
 
-.np-membership-info h2 {
+.join-page .np-membership-info h2 {
   color: rgb(255, 255, 255);
   background-color: rgba(0, 0, 0, 0.5);
   text-shadow:  rgb(71, 70, 70) 1px 1px 2px;
   padding: .2em;
 }
 
-.bronze-membership-info h2 {
+.join-page .bronze-membership-info h2 {
   color: rgb(183, 134, 71);
   background-color: rgba(0, 0, 0, 0.5);
   text-shadow:  rgb(43, 43, 43) 1px 1px 2px;
@@ -848,14 +859,14 @@ form label.top input:required:valid {
 
 }
 
-.silver-membership-info h2 {
+.join-page .silver-membership-info h2 {
   color: rgb(86, 142, 147);
   background-color: rgba(0, 0, 0, 0.5);
   text-shadow:  rgb(23, 23, 23) 1px 1px 2px;
   padding: .2em;
 }
 
-.gold-membership-info h2 {
+.join-page .gold-membership-info h2 {
   color: rgb(181, 175, 5);
   background-color: rgba(0, 0, 0, 0.5);
   text-shadow:  rgb(0, 0, 0) 1px 1px 5px;
@@ -866,7 +877,7 @@ form label.top input:required:valid {
 
 .thanks-page {
   background-color: rgb(216, 216, 195);
-  padding: 4em;
+  padding: 2em;
   display: block;
 }
 
@@ -877,7 +888,7 @@ form label.top input:required:valid {
 
 .thanks-message h1 {
   color: white;
-  font-size: 2.5em;
+  font-size: 2em;
 }
 
 .thanks-message p {
@@ -900,22 +911,23 @@ form label.top input:required:valid {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
   justify-items: center;
   margin: 10px;
-  width: 100%;
+  width: 90%;
 }
 
 .directory-page .card {
   margin: .2em .4em .2em 0px;
   background-color: rgb(251, 251, 251);
-  border-radius: 10px;
+  border-radius: 3px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
-  width: 20em;
+  width: 90%;
   height: 31em;
+
 
 }
 
 .directory-page .card img {
   width: auto;
-  height: 15em;
+  height: 12em;
 }
 
 .directory-page #business-list.list {
@@ -930,7 +942,7 @@ form label.top input:required:valid {
   padding: 10px;
   margin: 10px 15px 10px 15px;
   background-color: #fff;
-  border-radius: 5px;
+  border-radius: 3px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
   height: 11em;
   width: 89%;
@@ -963,7 +975,7 @@ form label.top input:required:valid {
 .directory-page .buttons button {
   height: 3em;
   padding: 1em;
-  font-size: 1em;
+  font-size: .8em;
   margin: 1em;
   cursor: pointer;
   box-shadow: 0 2px 4px rgba(0, 0, 0, .5);
@@ -981,10 +993,11 @@ form label.top input:required:valid {
 
 .contact-page .contact-info {
   background-color: white;
-  margin: 2em;
-  padding: 2em;
+  margin: .5em;
+  padding: .5em;
   text-align: left;
   box-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+  width: 90%;
 }
 
 .contact-page .contact-info a {
@@ -999,26 +1012,25 @@ form label.top input:required:valid {
 
 .contact-page .board-directors {
   background-color: white;
-  margin: 2em;
-  padding: 2em;
+  margin: .5em;
+  padding: .5em;
   text-align: left;
   box-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+  width: 90%;
 }
 
 .contact-page .board-directors p{
-  padding: 1em;
+  padding: .5em;
 }
 
 .contact-page form {
   background-color: white;
-  margin: 2em;
+  margin: .5em;
   box-shadow: 0 1px 2px rgba(0, 0, 0, .5);
   padding: 2.5em;
-}
-
-.contact-page form fieldset {
-  width: 100%;
-  margin: .1em;
+  width: 90%;
+  padding: .5em;
+  margin-right: 0px;
 }
 
 .contact-page form input, .contact-page form textarea{
@@ -1030,21 +1042,96 @@ form label.top input:required:valid {
 .contact-page form label {
   text-align: left;
   width: 80%;
+  min-width: 17em;
 }
 
 .contact-page form textarea{
-  width: 100%;
-  max-width: 20em;
+  width: 80%;
+  max-width: 80%;
   max-height: 30em;
   min-height: 10em;
-  min-width: 15em;
+  min-width: 18em;
+  display: block;
 }
 
-.contact-page .submitBtn {
+
+.contact-page form fieldset {
+  border: 1px solid #445ba9;
+  border-radius: 3px;
+  padding: .5em;
+  width: 100%;
+  max-width: 80%;
+  display: block;
+  text-align: left;
+  margin-top: 100px;
+  margin-left: .5em;
+  margin-bottom: 40px;
+
+}
+
+.contact-page form legend {
+  color: #445ba9;
+  margin: 0 1rem;
+  padding: 0 .5rem;
+  text-align: center;
+  font-size: 1em;
+}
+
+.contact-page form label.top, form div {
+  display: block;
+  padding-top: 1rem;
+  color: #9c2c13;
+  font-size: .9em;
+  padding-bottom: .9em;
+}
+
+.contact-page form label.top input , form label.top select {
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #999;
+  border-radius:  3px;
+  padding: .75rem;
+  color: #555;
+  width: 90%;
+  max-width: 20em;
+  background-color: rgba(0, 0, 0, 0.1);
+
+}
+
+.contact-page form label.sbs {
+  display: block;
+  padding: .75rem 0;
+  color: #555;
+  margin-left: 2px;
+  font-size: 1.1em;
+
+}
+
+.contact-page form input.submitBtn {
+  border: none;
+  background-color: #9c2c13;
   color: white;
-  background-color: rgb(136, 54, 54);
+  border-radius: 3px;
+  padding: .75rem;
+  margin: 5rem 0 2rem;
+  width: 96%;
+  max-width: 20rem;
+  font-size: 1.1rem;
 }
 
+.contact-page form input.submitBtn:hover {
+  transform: scale(1.05);
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
+.contact-page form label.top input:required {
+  border: red solid 2px;
+}
+
+.contact-page form label.top input:required:valid {
+  border: green solid 2px;
+}
 
 
 

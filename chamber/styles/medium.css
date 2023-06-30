@@ -142,8 +142,13 @@ footer {
 }
 
 .join-page form {
-    grid-column: 1/4;
-    grid-row: 1/3;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    width: 95%;
+}
+
+.join-page form fieldset {
+    width: 90%;
 }
 
 .join-page h1 {
@@ -156,9 +161,14 @@ footer {
     margin-left: 30px;
 }
 
+.join-page form textarea {
+    display: block;
+    width: 80%;
+}
+
 form input.submitBtn {
-    max-width: 18rem;
-    margin-left: 4em;
+    max-width: 18em;
+    margin-left: .1em;
 }
 
 .memberships-info {
@@ -172,16 +182,19 @@ form input.submitBtn {
   }
   
   .cards {
-    grid-template-columns: repeat(auto-fit, minmax(376px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    max-width: 100%;
+    width: 98%;
+
   }
   
   .directory-page .card {
-    width: 20em;
+    width: 19em;
     height: 31em;
   }
   
   .directory-page .card img {
-    height: 15em;
+    height: 10em;
   }
 
   .directory-page #business-list.list {
