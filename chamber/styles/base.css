@@ -907,7 +907,7 @@ transition: opacity 1.3s ease;
 
 .cards {
   display: grid;
-  grid-template-columns: repeat( minmax(320px, 1fr));
+  grid-template-columns: repeat( auto-fit,minmax(320px, 1fr));
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
   justify-items: center;
   margin: 10px;
