@@ -150,14 +150,15 @@ text-align: center;
 }
 
 .contact h2 {
-font-size: 24px;
+font-size: 3em;
 margin-bottom: 10px;
 color: #e98074;
 }
 
 .contact p {
 margin-bottom: 5px;
-padding: 1.5em;
+padding: .5em;
+font-size: 2em;
 }
 
 .coastal-area {
@@ -168,14 +169,14 @@ text-align: center;
 }
 
 .coastal-area h2 {
-font-size: 24px;
+font-size: 3em;
 margin-bottom: 10px;
 color: #e98074;
 }
 
 .coastal-area p {
-font-size: 16px;
-padding: 1.5em;
+font-size: 2em;
+padding: 1em;
 
 }
 
@@ -189,10 +190,12 @@ padding: 1.5em;
 
 .weather-individual-card {
     padding: 3em;
+    font-size: 2em;
 }
 
 .weather-individual-card h2 {
     color: #e98074;
+    font-size: 3em;
 }
 
 .cta-section {
