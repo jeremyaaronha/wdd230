@@ -17,7 +17,7 @@ header {
 }
 
 header img {
-    width: 7em;
+    width: 9em;
     height: auto;
 }
 
@@ -26,6 +26,11 @@ header img {
   font-weight: bold;
   color: #228B22;
   text-decoration: none;
+}
+
+.social-media a img{
+    width: 5em;
+    padding: 1em;
 }
 
 nav {
@@ -48,7 +53,10 @@ nav ul li a {
   color: #333333;
   text-decoration: none;
   font-weight: bold;
+  font-size: 3em;
+  padding: 1em;
 }
+
 
 .hero-section {
   background-color: #F0F0F0;
@@ -100,6 +108,11 @@ nav ul li a {
   background-color: #F0F0F0;
   padding: 20px;
   border-radius: 5px;
+  box-shadow: rgb(189, 188, 188) .1em .1em .5em;
+}
+
+.product-card a {
+    text-decoration: none;
 }
 
 .product-card img {
