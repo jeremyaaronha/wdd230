@@ -17,7 +17,7 @@ header {
 }
 
 header img {
-    width: 9em;
+    width: 20em;
     height: auto;
 }
 
@@ -28,9 +28,15 @@ header img {
   text-decoration: none;
 }
 
+.social-media {
+    display: flex;
+    justify-content: right;
+    padding: 2em;
+}
 .social-media a img{
     width: 5em;
     padding: 1em;
+    width: 7em;
 }
 
 nav {
@@ -93,7 +99,10 @@ nav ul li a {
 .product-section {
   text-align: center;
   margin-top: 60px;
+}
 
+.product-section h2 {
+    font-size: 4em;
 }
 
 .product-grid {
@@ -126,19 +135,49 @@ nav ul li a {
   margin-top: 20px;
   font-size: 24px;
   color: #333333;
+  font-size: 4em;
+
 }
 
 .product-card p {
   margin-top: 10px;
   color: #666666;
+  font-size: 3em;
+
+
 }
 
+.cta-section {
+    text-align: center;
+    margin-top: 60px;
+  }
+  
+  .cta-title {
+    font-size: 5em;
+    margin-bottom: 1.5em;
+    color: #333333;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: .5em;
+    background-color: #228B22;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 3em;
+  }
+  
+  .cta-button:hover {
+    background-color: #1B5C1F;
+  }
 
 #drinks-card {
     text-align: center;
     padding: 2em;
     color: #228B22;
-    font-size: 1.5em;
+    font-size: 2.5em;
 }
 
 .contact {
@@ -199,38 +238,14 @@ padding: 1em;
 }
 
 .weather-individual-card p {
-    font-size: 2em;
+    font-size: 2.5em;
 }
 
 .forecast-1 {
     padding: 1em;
 }
 
-.cta-section {
-  text-align: center;
-  margin-top: 60px;
-}
 
-.cta-title {
-  font-size: 36px;
-  margin-bottom: 20px;
-  color: #333333;
-}
-
-.cta-button {
-  display: inline-block;
-  padding: .5em;
-  background-color: #228B22;
-  color: #FFFFFF;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 5px;
-  font-size: 3em;
-}
-
-.cta-button:hover {
-  background-color: #1B5C1F;
-}
 
 footer {
     background-color: #333333;
