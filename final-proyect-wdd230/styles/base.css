@@ -198,6 +198,14 @@ padding: 1em;
     font-size: 3em;
 }
 
+.weather-individual-card p {
+    font-size: 2em;
+}
+
+.forecast-1 {
+    padding: 1em;
+}
+
 .cta-section {
   text-align: center;
   margin-top: 60px;
