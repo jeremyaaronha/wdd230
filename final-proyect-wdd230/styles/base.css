@@ -70,14 +70,14 @@ nav ul li a {
   padding: 5em;
 }
 
-.hero-title {
-  font-size: 48px;
+.hero-title { /*Welcome to Bountiful Foods*/
+  font-size: 4em;
   margin-bottom: 20px;
   color: #333333;
 }
 
-.hero-subtitle {
-  font-size: 24px;
+.hero-subtitle { /*Discover the freshness...*/
+  font-size: 3em;
   margin-bottom: 40px;
   color: #666666;
 }
@@ -234,11 +234,12 @@ padding: 1em;
 
 .weather-individual-card h2 {
     color: #e98074;
-    font-size: 3em;
+    font-size: 2em;
+    text-align: center;
 }
 
 .weather-individual-card p {
-    font-size: 2.5em;
+    font-size: 1em;
 }
 
 .forecast-1 {
@@ -255,9 +256,12 @@ footer {
   }
 
 footer p {
-    padding: 1em;
+    padding: .5em;
+    font-size: 2.5em;
 }
 
+
+/* ----- Fresh Page ----- */
 
 .form-section {
   margin-top: 60px;
