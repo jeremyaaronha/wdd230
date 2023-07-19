@@ -1,0 +1,165 @@
+@media only screen and (min-width: 1024px) {
+
+.social-media a img{
+    width: 3.5em;
+    padding: .1em;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+nav ul li a{
+    padding: 1.5em;
+}
+
+
+.hero-section {
+    padding: 1em;
+}
+  
+.hero-title { /*Welcome to Bountiful Foods*/
+    font-size: 3.5em;
+}
+  
+.hero-subtitle { /*Discover the freshness...*/
+    font-size: 2.5em;
+}
+
+.cta-button {
+    border-radius: 5px;
+    font-size: 2em;
+}
+
+.product-section h2 {
+    font-size: 3em;
+}
+
+.product-grid {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .product-card {
+    margin: 1em;
+  }
+  
+
+
+.cta-title {
+    font-size: 3em;
+}
+
+
+#drinks-card {
+    padding: 1.5em;
+    font-size: 2em;
+}
+
+.contact h2 {
+font-size: 2em;
+}
+
+.contact p {
+padding: .1em;
+font-size: 1.3em;
+}
+
+.coastal-area h2 {
+font-size: 2em;
+}
+
+.coastal-area p {
+font-size: 1.3em;
+padding: .1em;
+padding-left: 13em;
+padding-right: 13em;
+
+}
+
+.weather-individual-card h2 {
+    color: #e98074;
+    font-size: 1em;
+    text-align: center;
+}
+
+.weather-individual-card p {
+    font-size: .6em;
+}
+
+footer {
+    padding: .5em;
+  }
+
+footer p {
+    padding: .1em;
+    font-size: 1.5em;
+}
+
+/* ----- Fresh Page ----- */
+
+
+.fresh-page .product-grid {
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  }
+  
+  .form-section h2{
+  font-size: 2.5em;
+  }
+  
+  .form-input {
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 300px;
+  }
+  
+  .form-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  }
+  
+  .form-input input,
+  .form-input textarea,
+  .form-input select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #CCCCCC;
+  border-radius: 5px;
+  }
+  
+  .form-input select {
+  height: 40px;
+  }
+  
+  .form-submit {
+  margin-top: 20px;
+  }
+  
+  .form-submit input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #228B22;
+  color: #FFFFFF;
+  font-size: 1.3em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  }
+  
+
+/* ----- About Us Page ----- */
+
+.about-section h1 {
+    font-size: 2em;
+
+}
+
+.about-section p {
+    font-size: 1.5em;
+
+}
+
+}

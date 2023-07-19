@@ -17,7 +17,7 @@ header {
 }
 
 header img {
-    width: 20em;
+    width: 8em;
     height: auto;
 }
 
@@ -36,7 +36,6 @@ header img {
 .social-media a img{
     width: 5em;
     padding: 1em;
-    width: 7em;
 }
 
 nav {
@@ -53,6 +52,10 @@ nav ul {
 nav ul li {
   display: inline-block;
   margin-right: 10px;
+  padding: 1.5em;
+  width: 90%;
+  background-color: #F0F0F0;
+  border: solid rgba(211, 210, 210, 0.525);
 }
 
 nav ul li a {
@@ -61,6 +64,7 @@ nav ul li a {
   font-weight: bold;
   font-size: 3em;
   padding: 1em;
+
 }
 
 
@@ -82,19 +86,22 @@ nav ul li a {
   color: #666666;
 }
 
-.cta-button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #228B22;
-  color: #FFFFFF;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 5px;
-}
 
-.cta-button:hover {
-  background-color: #1B5C1F;
-}
+  
+  .cta-button {
+    display: inline-block;
+    padding: .5em;
+    background-color: #228B22;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 3em;
+  }
+  
+  .cta-button:hover {
+    background-color: #1B5C1F;
+  }
 
 .product-section {
   text-align: center;
@@ -151,27 +158,13 @@ nav ul li a {
     text-align: center;
     margin-top: 60px;
   }
-  
+
   .cta-title {
     font-size: 5em;
     margin-bottom: 1.5em;
     color: #333333;
   }
-  
-  .cta-button {
-    display: inline-block;
-    padding: .5em;
-    background-color: #228B22;
-    color: #FFFFFF;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
-    font-size: 3em;
-  }
-  
-  .cta-button:hover {
-    background-color: #1B5C1F;
-  }
+
 
 #drinks-card {
     text-align: center;
@@ -361,7 +354,5 @@ background-color: #1B5C1F;
   width: 2em;
   height: auto;
   margin: .5em;
-
-
 }
 

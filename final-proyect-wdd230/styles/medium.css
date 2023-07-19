@@ -1,0 +1,29 @@
+@media only screen and (min-width: 768px) {
+
+nav ul li {
+    width: fit-content;
+    padding: 1em;
+    font-size: .7em;
+    padding: 1.5em;
+    background-color: white;
+    border: none;
+}
+
+.fresh-page .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  }
+
+  .product-card img {
+    height: 20em;
+  }
+  
+  .product-card h3 {
+    font-size: 2em;
+  }
+  
+  .product-card p {
+    font-size: 1.5em;
+  }
+
+}
