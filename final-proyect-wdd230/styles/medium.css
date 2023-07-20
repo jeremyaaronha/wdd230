@@ -10,7 +10,6 @@ nav ul li {
 }
 
 .fresh-page .product-grid {
-    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
   }
 
@@ -24,6 +23,10 @@ nav ul li {
   
   .product-card p {
     font-size: 1.5em;
+  }
+
+  .contact img {
+      width: 40em;
   }
 
 }

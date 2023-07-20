@@ -78,15 +78,36 @@ padding-right: 13em;
 
 }
 
+.weather-card {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 .weather-individual-card h2 {
     color: #e98074;
-    font-size: 1em;
+    font-size: 1.3em;
     text-align: center;
 }
 
 .weather-individual-card p {
-    font-size: .6em;
+    font-size: .9em;
 }
+
+.weather-individual-card {
+    grid-column: 1/4;
+}
+
+.forecast-1 {
+    grid-column: 1/2;
+}
+
+.forecast-2 {
+    grid-column: 2/3;
+}
+
+.forecast-3 {
+    grid-column: 3/4;
+}
+
 
 footer {
     padding: .5em;
@@ -113,6 +134,8 @@ footer p {
   margin-bottom: 20px;
   width: 100%;
   max-width: 300px;
+  margin-left: 2em;
+
   }
   
   .form-label {
@@ -151,11 +174,6 @@ footer p {
   
 
 /* ----- About Us Page ----- */
-
-.about-section h1 {
-    font-size: 2em;
-
-}
 
 .about-section p {
     font-size: 1.5em;

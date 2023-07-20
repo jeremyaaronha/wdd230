@@ -118,6 +118,13 @@ nav ul li a {
   
 }
 
+.fresh-page .product-grid {
+    margin-top: 20px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+  }
+
 .product-card {
   flex-basis: 300px;
   margin: 10px;
@@ -216,16 +223,19 @@ padding: 1em;
   margin-top: 1em;
   padding: 1.5em;
   background-color: #f8f4e9;
-  display: flex ;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1/4;
 }
 
 .weather-individual-card {
     padding: 3em;
     font-size: 2em;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
-.weather-individual-card h2 {
+.weather-individual-card h2,.weather-card h3 {
     color: #e98074;
     font-size: 2em;
     text-align: center;
@@ -235,9 +245,20 @@ padding: 1em;
     font-size: 1em;
 }
 
-.forecast-1 {
-    padding: 1em;
+.forecast-1,.forecast-2,.forecast-3 {
+    padding: .1em;
+    font-size: 2em;
+    text-align: center;
+    margin: .1em;
+    box-shadow: rgb(189, 188, 188) .1em .1em .1em;
+    background-color:#F0F0F0;
+    border-radius: .1em;
 }
+
+.weather-card h4 {
+    font-size: 3em;
+}
+
 
 
 
@@ -258,10 +279,11 @@ footer p {
 
 .form-section {
   margin-top: 60px;
-  text-align: left;
+  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  
   
 }
 
@@ -287,10 +309,6 @@ footer p {
   border-radius: 5px;
 }
 
-.form-section {
-margin-top: 60px;
-text-align: center;
-}
 
 .form-title {
 font-size: 36px;
@@ -350,9 +368,42 @@ cursor: pointer;
 background-color: #1B5C1F;
 }
 
+input:required:invalid,
+select:required:invalid,
+textarea:required:invalid {
+  border: 2px solid red;
+}
+
+input:required:valid,
+select:required:valid,
+textarea:required:valid {
+  border: 2px solid green;
+}
+
+#output-area {
+    color: black;
+    padding: 2em;
+    text-align: center;
+}
+
+
+
+
 .social-media img {
   width: 2em;
   height: auto;
   margin: .5em;
 }
 
+.about-section p {
+    font-size: 2em;
+}
+
+.contact img {
+    width: 25em;
+    height: auto;
+    margin: 2em;
+    border-radius: 2.5em;
+    box-shadow: rgb(189, 188, 188) .1em .1em .5em;
+
+}

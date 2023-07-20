@@ -37,14 +37,14 @@
   <div class="form-section">
     <div class="container">
       <h2>Form to create drink</h2>
-      <form>
+      <form id="drink-form">
         <div class="form-input">
           <label for="first-name" class="form-label">Name:</label>
-          <input type="name" id="first-name" name="first-name" placeholder="Enter your name">
+          <input type="name" id="first-name" name="first-name" placeholder="Enter your name" required>
         </div>
         <div class="form-input">
           <label for="email" class="form-label">Email:</label>
-          <input type="email" id="email" name="email" placeholder="Enter your email">
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
         </div>
         <div class="form-input">
           <label for="phone" class="form-label">Phone:</label>
@@ -52,29 +52,24 @@
         </div>
         <div class="form-input">
           <label for="fruit1" class="form-label">Fruit 1:</label>
-          <select id="fruit1" name="fruit1">
-            <option value="-">- Please select a fruit -</option>
-            <option value="apple">Apple</option>
-            <option value="orange">Orange</option>
-            <option value="banana">Banana</option>
+          <select id="fruit1" name="fruit1" required>
+            <option value="" disabled selected>- Please select a fruit -</option>
+
+
           </select>
         </div>
         <div class="form-input">
           <label for="fruit2" class="form-label">Fruit 2:</label>
-          <select id="fruit2" name="fruit2">
-            <option value="-">- Please select a fruit -</option>
-            <option value="apple">Apple</option>
-            <option value="orange">Orange</option>
-            <option value="banana">Banana</option>
+          <select id="fruit2" name="fruit2" required>
+            <option value="" disabled selected>- Please select a fruit -</option>
+
           </select>
         </div>
         <div class="form-input">
           <label for="fruit3" class="form-label">Fruit 3:</label>
           <select id="fruit3" name="fruit3">
-            <option value="-">- Please select a fruit -</option>
-            <option value="apple">Apple</option>
-            <option value="orange">Orange</option>
-            <option value="banana">Banana</option>
+            <option value="" disabled selected>- Please select a fruit -</option>
+
           </select>
         </div>
         <div class="form-input">
@@ -87,6 +82,8 @@
       </form>
     </div>
   </div>
+  <div id="output-area"></div>
+
 
   <div class="product-section">
     <div class="container">
